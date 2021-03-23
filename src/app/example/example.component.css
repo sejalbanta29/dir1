@@ -1,0 +1,35 @@
+p {
+    font-weight: bold;
+  }
+  button {
+    background-color: rgb(219, 91, 17);
+    border-radius: 3px;
+    border-color: rgb(219, 91, 17);
+    color: white;
+    height: 40px;
+    width: 100px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .red {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .black {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .click{
+    margin-top: 10px;
+    font-size: 25px;
+    height: 30px;
+    
+  }
+  

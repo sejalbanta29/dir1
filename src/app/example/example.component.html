@@ -1,0 +1,42 @@
+<h1>Directive</h1>
+<h2>
+  Q1 Show and hide a div on the basis of click using structural directive.
+</h2>
+<button (click)="onclick()">Click</button>
+<br />
+<div class="click" *ngIf="showMe">
+  Good Morning!
+</div>
+<br />
+<h2>
+  Q2 Change the class of div on the basis of click using attribute directive.
+</h2>
+
+<div (click)="clickonme()" [ngClass]="status ? 'red' : 'black'">
+  Hello, Welcome to to the new.
+</div>
+<br />
+<h2>Q3. Iterate a list of Item using structural directive.</h2>
+<p>Done using ngFor</p>
+<ul *ngFor="let list of items">
+  <li>{{list.name}}</li>
+</ul>
+<br />
+<h2>Q4. Make a input box and set its default value using ngModel.</h2>
+
+<div>
+  Enter your name: <input [(ngModel)]="names">
+  <p> {{names}}</p>
+</div>
+<br />
+<h2>
+  Q4. Create custom directive and change the innerText of the element to ‘ Hello
+  , I am Custom Directive’.
+</h2>
+<p>
+  Below is a empty p tag using, custom directive appHighlight innerHtml value
+  is given to it
+</p>
+<p appHighlight>=></p>
+
+
